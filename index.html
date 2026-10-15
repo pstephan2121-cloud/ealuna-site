@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ealuna — Clinician-guided menopause care (mock-up)</title>
+<style>
+:root{--ink:#0c1424;--night:#152036;--sand:#f4f1ea;--mist:#d7dde8;--gold:#c9a96e;--txt:#2a3142;--banner:36px}
+*{box-sizing:border-box}body{margin:0;padding-top:var(--banner);font-family:"Segoe UI",Helvetica,sans-serif;color:var(--txt);background:var(--sand);line-height:1.6}
+h1,h2,h3{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-weight:400;color:var(--ink)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.preview-banner{position:fixed;top:0;left:0;right:0;z-index:30;min-height:var(--banner);display:flex;align-items:center;justify-content:center;padding:8px 20px;background:var(--ink);color:var(--sand);border-bottom:1px solid var(--gold);font-size:13px;letter-spacing:.02em;line-height:1.35;text-align:center}
+nav{position:absolute;top:var(--banner);left:0;right:0;z-index:5}nav .wrap{display:flex;justify-content:space-between;align-items:center;padding:22px 24px}
+.logo{font-family:Palatino,Georgia,serif;font-size:28px;color:#fff;letter-spacing:.04em}nav a{color:#e6eaf2;text-decoration:none;margin-left:24px;font-size:14px}
+.btn{display:inline-block;background:var(--gold);color:var(--ink)!important;padding:14px 28px;border-radius:40px;text-decoration:none;font-weight:600}
+.hero{min-height:640px;background:linear-gradient(90deg,rgba(12,20,36,.15),rgba(12,20,36,.55) 55%,rgba(12,20,36,.85)),url(hero.jpg) center/cover;display:flex;align-items:center;color:#fff}
+.hero .wrap{display:flex;justify-content:flex-end}.hero-copy{max-width:480px}.hero h1{color:#fff;font-size:50px;line-height:1.15;margin:0 0 18px}.hero p{color:#dfe4ee;font-size:18px}
+.ph{font-size:11px;opacity:.6;font-style:italic;margin-left:4px}
+section{padding:84px 0}h2{font-size:38px;text-align:center;margin:0 0 14px}.sub{text-align:center;max-width:640px;margin:0 auto 48px;color:#5a6275}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.card{background:#fff;border-radius:16px;padding:30px;box-shadow:0 4px 20px rgba(12,20,36,.06)}.card h3{margin-top:0;font-size:22px}
+.num{font-family:Palatino,Georgia,serif;font-size:40px;color:var(--gold)}
+.dark{background:var(--ink);color:#d7dde8}.dark h2,.dark h3{color:#fff}.dark .sub{color:#aab3c5}.dark .card{background:var(--night);box-shadow:none}
+.price{font-size:44px;font-family:Palatino,Georgia,serif;color:var(--ink)}.feat{border:2px solid var(--gold)}
+ul.chk{padding-left:0;list-style:none}ul.chk li:before{content:"✓ ";color:var(--gold)}
+.tag{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:var(--mist);padding:4px 10px;border-radius:20px}
+details{background:#fff;border-radius:12px;padding:18px 24px;margin:0 auto 12px;max-width:800px}summary{cursor:pointer;font-weight:600;color:var(--ink)}
+.cta{background:linear-gradient(135deg,#152036,#0c1424);text-align:center;color:#fff}.cta h2{color:#fff}
+footer{background:#080e1a;color:#8b94a8;font-size:13px;padding:48px 0}footer .legal{border-top:1px solid #222c40;margin-top:28px;padding-top:20px;font-size:12px;line-height:1.7}
+@media (max-width:640px){
+  :root{--banner:52px}
+  .preview-banner{font-size:12px;padding:7px 14px}
+}
+</style>
+</head>
+<body>
+<div class="preview-banner">Coming soon. This is a preview; prices and details are placeholders.</div>
+<nav><div class="wrap"><div class="logo">ealuna</div><div><a href="#how">How it works</a><a href="#treat">Treatments</a><a href="#clin">Clinicians</a><a href="#faq">FAQ</a><a class="btn" href="#start" style="padding:10px 20px">Get started</a></div></div></nav>
+<header class="hero"><div class="wrap"><div class="hero-copy">
+<h1>Menopause care that meets you where you are.</h1>
+<p>Licensed clinicians. Personalized hormone therapy options, if appropriate for you. Delivered to your door from a licensed pharmacy partner.</p>
+<p><a class="btn" href="#start">Start your online visit</a></p>
+<p style="font-size:13px;opacity:.75">Online assessment · Treatment only if prescribed by a licensed clinician</p>
+</div></div></header>
+
+<section><div class="wrap"><h2>Perimenopause and menopause, taken seriously</h2><p class="sub">Hot flashes, night sweats, broken sleep, mood shifts. Many women are told to just push through. A clinician can review your symptoms and history and discuss options with you.</p>
+<div class="grid"><div class="card"><h3>Hot flashes &amp; night sweats</h3><p>Talk with a clinician about whether hormone therapy may be an option for you.</p></div>
+<div class="card"><h3>Sleep</h3><p>Symptom-focused care, plus an optional wellness add-on for evening routines.</p></div>
+<div class="card"><h3>Mood &amp; focus</h3><p>A care plan that considers the whole picture, not one symptom at a time.</p></div></div></div></section>
+
+<section id="how" class="dark"><div class="wrap"><h2>How it works</h2><p class="sub">From assessment to doorstep, entirely online.</p>
+<div class="grid"><div class="card"><div class="num">1</div><h3>Online assessment</h3><p>Tell us about your symptoms, health history and goals. About 10 minutes.</p></div>
+<div class="card"><div class="num">2</div><h3>Clinician review</h3><p>A licensed clinician in your state reviews your intake and decides whether treatment is appropriate.</p></div>
+<div class="card"><div class="num">3</div><h3>Delivered every 90 days</h3><p>If prescribed, your medication ships from our licensed compounding pharmacy partner in discreet packaging.</p></div>
+<div class="card"><div class="num">4</div><h3>Ongoing support</h3><p>Message your care team and adjust your plan as your needs change.</p></div></div></div></section>
+
+<section id="treat"><div class="wrap"><h2>Treatment options</h2><p class="sub">Your clinician decides what, if anything, is right for you. Options may include:</p>
+<div class="grid"><div class="card"><span class="tag">Topical</span><h3>Estradiol cream</h3><p>Compounded topical estrogen, dosed by your clinician.</p></div>
+<div class="card"><span class="tag">Oral</span><h3>Estradiol tablet</h3><p>Oral estrogen option for appropriate patients.</p></div>
+<div class="card"><span class="tag">Oral</span><h3>Progesterone 100 mg</h3><p>Oral micronized progesterone, often prescribed alongside estrogen for women with a uterus.</p></div></div>
+
+<div class="grid" style="margin-top:48px">
+<div class="card feat"><h3>ealuna Membership</h3><div class="price">$149.99<span style="font-size:18px">/mo</span><span class="ph">placeholder</span></div>
+<ul class="chk"><li>Clinician care &amp; messaging</li><li>Prescribed medication, if appropriate</li><li>90-day supply per shipment</li><li>Free, discreet shipping</li><li>Cancel anytime</li></ul>
+<p style="font-size:13px">Plus a one-time $49.99 intake &amp; clinician evaluation<span class="ph">placeholder</span>. Billed per 90-day fill.</p><a class="btn" href="#start">Get started</a></div>
+<div class="card"><span class="tag">Optional add-on</span><h3>Evening Calm supplement</h3><p>Ashwagandha, magnesium glycinate and glycine for your evening routine. Not a prescription; entirely optional and not required for treatment.</p><div class="price" style="font-size:28px">TBD<span class="ph">placeholder</span></div>
+<p style="font-size:11px;color:#777">*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p></div></div></div></section>
+
+<section id="clin" class="dark"><div class="wrap"><h2>Care from licensed clinicians</h2><p class="sub">Board-certified physicians and nurse practitioners focused on midlife women's health, licensed in the states they serve.</p>
+<div class="grid"><div class="card"><h3>[Clinician name], MD</h3><p>OB/GYN · placeholder bio</p></div><div class="card"><h3>[Clinician name], NP</h3><p>Women's health NP · placeholder bio</p></div><div class="card"><h3>[Clinician name], MD</h3><p>Internal medicine · placeholder bio</p></div></div></div></section>
+
+<section id="faq"><div class="wrap"><h2>Questions</h2><p class="sub"></p>
+<details><summary>Is hormone therapy right for me?</summary><p>Only a licensed clinician can decide that after reviewing your history. Hormone therapy is not appropriate for everyone and carries risks your clinician will discuss with you.</p></details>
+<details><summary>What is a compounded medication?</summary><p>Compounded medications are prepared by a licensed pharmacy for an individual patient based on a prescription. They are not FDA-approved, and the FDA does not verify their safety, effectiveness or quality.</p></details>
+<details><summary>Do you take insurance?</summary><p>ealuna is cash-pay. You may be able to use an HSA/FSA card; check with your plan administrator.</p></details>
+<details><summary>How does billing work?</summary><p>A one-time intake fee, then your membership billed for each 90-day supply. Cancel anytime before your next fill.</p></details>
+<details><summary>Which states do you serve?</summary><p>State list coming soon.</p></details>
+</div></section>
+
+<section class="cta" id="start"><div class="wrap"><h2>Feel more like yourself.</h2><p style="color:#c9d0dc">Start your online assessment today. It takes about 10 minutes.</p><a class="btn" href="#">Start your visit</a></div></section>
+
+<footer><div class="wrap"><div class="logo" style="font-size:22px">ealuna</div><p>About · Privacy · Terms · Telehealth consent · Contact</p>
+<div class="legal">ealuna is a technology platform that connects patients with independent licensed healthcare providers. ealuna does not provide medical care. All treatment decisions are made by your clinician, and prescriptions are issued only if medically appropriate. Medications are dispensed by licensed third-party pharmacies. Compounded medications are not FDA-approved; the FDA does not review compounded drugs for safety, effectiveness or quality. Hormone therapy has risks, including blood clots, stroke and certain cancers; discuss benefits and risks with your clinician. Not for emergencies; call 911. Supplement statements have not been evaluated by the FDA. Individual results vary. Prices shown are illustrative. © 2026 ealuna. Mock-up for internal review only.</div></div></footer>
+</body>
+</html>
